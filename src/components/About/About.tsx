@@ -1,4 +1,12 @@
 import { Code2, Palette, Zap } from 'lucide-react';
+import cssLogo from '../assets/logos/css.png';
+import tsLogo from '../assets/logos/typescript.png';
+import tailwindLogo from '../assets/logos/tailwind.png';
+import reactLogo from '../assets/logos/react.png';
+import nodeLogo from '../assets/logos/node.png';
+import jsLogo from '../assets/logos/javascript.png';
+import htmlLogo from '../assets/logos/html.png';
+import gitLogo from '../assets/logos/git.png';
 import { useTheme } from '../ThemeContext';
 
 export default function About() {
@@ -23,38 +31,14 @@ export default function About() {
   ];
 
   const technologies = [
-    {
-      name: 'CSS',
-      logo: <img src="/logos/css.png" alt="Css" className="w-12 h-12" />
-    },
-    {
-      name: 'TypeScript',
-      logo: <img src="/logos/typescript.png" alt="TypeScript" className="w-12 h-12" />
-    },
-    {
-      name: 'Tailwind CSS',
-      logo: <img src="/logos/tailwind.png" alt="Tailwind" className="w-12 h-12" />
-    },
-    {
-      name: 'React',
-      logo: <img src="/logos/react.png" alt="React" className="w-12 h-12" />
-    },
-    {
-      name: 'Node.js',
-      logo: <img src="/logos/node.png" alt="Node.js" className="w-12 h-12" />
-    },
-    {
-      name: 'JavaScript',
-      logo: <img src="/logos/javascript.png" alt="JavaScript" className="w-12 h-12" />
-    },
-    {
-      name: 'Html',
-      logo: <img src="/logos/html.png" alt="HTML" className="w-12 h-12" />
-    },
-    {
-      name: 'Git',
-      logo: <img src="/logos/git.png" alt="Git" className="w-12 h-12" />
-    }
+    { name: 'CSS', logo: <img src={cssLogo} alt="CSS" className="w-12 h-12" /> },
+    { name: 'TypeScript', logo: <img src={tsLogo} alt="TypeScript" className="w-12 h-12" /> },
+    { name: 'Tailwind CSS', logo: <img src={tailwindLogo} alt="Tailwind" className="w-12 h-12" /> },
+    { name: 'React', logo: <img src={reactLogo} alt="React" className="w-12 h-12" /> },
+    { name: 'Node.js', logo: <img src={nodeLogo} alt="Node.js" className="w-12 h-12" /> },
+    { name: 'JavaScript', logo: <img src={jsLogo} alt="JavaScript" className="w-12 h-12" /> },
+    { name: 'HTML', logo: <img src={htmlLogo} alt="HTML" className="w-12 h-12" /> },
+    { name: 'Git', logo: <img src={gitLogo} alt="Git" className="w-12 h-12" /> }
   ];
 
   return (
