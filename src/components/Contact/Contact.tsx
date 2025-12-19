@@ -1,7 +1,7 @@
 import { Mail, Github, Linkedin } from 'lucide-react';
 import { useTheme } from '../ThemeContext';
 
-export function Contact() {
+export default function Contact() { 
   const { theme } = useTheme();
   
   const contactMethods = [

@@ -1,7 +1,8 @@
 import { ArrowDown } from 'lucide-react';
 import { useTheme } from '../ThemeContext';
 import './Hero.css';
-export function Hero() {
+
+export default function Hero() {
   const { theme } = useTheme();
   
   const scrollToAbout = () => {

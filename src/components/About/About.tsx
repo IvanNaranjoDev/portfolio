@@ -1,7 +1,7 @@
 import { Code2, Palette, Zap } from 'lucide-react';
 import { useTheme } from '../ThemeContext';
 
-export function About() {
+export default function About() {
   const { theme } = useTheme();
   
   const skills = [

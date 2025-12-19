@@ -1,7 +1,7 @@
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from '../ThemeContext';
 
-export function Header() {
+export default function Header() {
   const { theme, toggleTheme } = useTheme();
   
   const scrollToSection = (id: string) => {

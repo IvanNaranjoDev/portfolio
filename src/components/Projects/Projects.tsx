@@ -1,7 +1,7 @@
 import { ExternalLink, Github } from 'lucide-react';
 import { useTheme } from '../ThemeContext';
 
-export function Projects() {
+export default function Projects() {
   const { theme } = useTheme();
   
   const projects = [
