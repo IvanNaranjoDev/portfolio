@@ -1,12 +1,12 @@
 import { Code2, Palette, Zap } from 'lucide-react';
-import cssLogo from '../assets/logos/css.png';
-import tsLogo from '../assets/logos/typescript.png';
-import tailwindLogo from '../assets/logos/tailwind.png';
-import reactLogo from '../assets/logos/react.png';
-import nodeLogo from '../assets/logos/node.png';
-import jsLogo from '../assets/logos/javascript.png';
-import htmlLogo from '../assets/logos/html.png';
-import gitLogo from '../assets/logos/git.png';
+import cssLogo from '../../assets/logos/css.png';
+import tsLogo from '../../assets/logos/typescript.png';
+import tailwindLogo from '../../assets/logos/tailwind.png';
+import reactLogo from '../../assets/logos/react.png';
+import nodeLogo from '../../assets/logos/node.png';
+import jsLogo from '../../assets/logos/javascript.png';
+import htmlLogo from '../../assets/logos/html.png';
+import gitLogo from '../../assets/logos/git.png';
 import { useTheme } from '../ThemeContext';
 
 export default function About() {
