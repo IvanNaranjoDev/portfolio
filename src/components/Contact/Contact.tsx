@@ -1,5 +1,5 @@
 import { Mail, Github, Linkedin } from 'lucide-react';
-import { useTheme } from './ThemeContext';
+import { useTheme } from '../ThemeContext';
 
 export function Contact() {
   const { theme } = useTheme();

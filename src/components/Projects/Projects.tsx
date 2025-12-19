@@ -1,5 +1,5 @@
 import { ExternalLink, Github } from 'lucide-react';
-import { useTheme } from './ThemeContext';
+import { useTheme } from '../ThemeContext';
 
 export function Projects() {
   const { theme } = useTheme();

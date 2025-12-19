@@ -1,5 +1,5 @@
 import { Code2, Palette, Zap } from 'lucide-react';
-import { useTheme } from './ThemeContext';
+import { useTheme } from '../ThemeContext';
 
 export function About() {
   const { theme } = useTheme();
