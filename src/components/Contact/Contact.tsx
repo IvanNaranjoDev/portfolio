@@ -34,15 +34,6 @@ export default function Contact() {
           <span className="text-green-400">Contáctame</span>
         </h2>
 
-        <div className="max-w-3xl mx-auto text-center mb-12">
-          <p className={`text-xl mb-8 ${
-            theme === 'dark' ? 'text-gray-300' : 'text-gray-700'
-          }`}>
-            I'm always interested in hearing about new projects and opportunities. 
-            Whether you have a question or just want to say hi, feel free to reach out!
-          </p>
-        </div>
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {contactMethods.map((method, index) => (
             <a
