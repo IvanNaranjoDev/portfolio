@@ -13,6 +13,14 @@ export default function Projects() {
       github: 'https://github.com/IvanNaranjoDev/beat-on-angular',
       demo: 'https://beaton.alixarblue.team/'
     },
+    {
+      title: 'Portfolio Personal',
+      description: 'Portfolio personal para mostrar proyectos y habilidades.',
+      tags: ['React', 'TailwindCSS', 'GitHub Pages'],
+      image: 'https://i.imgur.com/OEzr1cJ.png',
+      github: 'https://github.com/IvanNaranjoDev/portfolio',
+      demo: 'https://ivannaranjodev.github.io/portfolio/'
+    },
   ];
 
   const getGridColumns = () => {
