@@ -1,6 +1,7 @@
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from '../ThemeContext';
-import logo from '../../assets/logo.svg';
+import logoDark from '../../assets/logo.svg';
+import logoLight from '../../assets/logo-light.svg';
 
 export default function Header() {
   const { theme, toggleTheme } = useTheme();
@@ -19,7 +20,7 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <button onClick={() => scrollToSection('hero')} className="text-green-400 hover:text-green-300 transition-colors">
-            <img src={logo} alt="Logo" className="w-8 h-8"/>
+            <img src={theme === 'dark' ? logoLight : logoDark} alt="Logo" className="w-8 h-8"/>
           </button>
           
           <div className="flex items-center gap-8">
