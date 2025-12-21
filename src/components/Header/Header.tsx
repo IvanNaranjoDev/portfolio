@@ -19,7 +19,7 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <button onClick={() => scrollToSection('hero')} className="text-green-400 hover:text-green-300 transition-colors">
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Logo" className="w-8 h-8"/>
           </button>
           
           <div className="flex items-center gap-8">
